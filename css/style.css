@@ -175,10 +175,7 @@ nav ul li > a:hover {
 
 .code-text > p {
     max-width: 470px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 35px;
+
 }
 
 .code-text .btn--orange,
@@ -252,6 +249,14 @@ h2 {
     display: flex;
     align-items: center;
     margin: 0 auto;
+}
+
+.code-c-wrap:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.code-c-wrap:nth-child(4) {
+    flex-direction: row-reverse;
 }
 
 .code-c-text {
@@ -502,13 +507,14 @@ h3 {
     margin: 14px 0 ;
 }
 
-.chief-text > span, 
+.chief-text span, 
 img {
     background-color: #C9E8F2;
 }
 
-.chief-text > p {
-    max-width: 920px;
+cite {
+    display: block;
+    width: 920px;
     background: #C9E8F2;
     font-style: normal;
     font-weight: 400;
