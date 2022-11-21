@@ -20,6 +20,10 @@ body a {
     cursor: pointer;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 body p {
     padding: 25px 0;
 }
@@ -116,6 +120,10 @@ nav ul li > a:hover {
     margin: 25px 5px;
 }
 
+.btn--white:hover {
+    text-decoration: none;
+}
+
 .btn--orange {
     display: inline-block;
     background: #FF6336;
@@ -131,6 +139,11 @@ nav ul li > a:hover {
     height: 45px;
     margin: 25px 5px;
 }
+
+.btn--orange:hover {
+    text-decoration: none;
+}
+
 
 .code {
     width: 100%;
@@ -173,9 +186,15 @@ nav ul li > a:hover {
     font-weight: 600;
 }
 
-.code-text > p {
-    max-width: 470px;
-
+h6 {
+    display: block;
+    width: 470px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    padding: 25px 0;
 }
 
 .code-text .btn--orange,
@@ -299,10 +318,10 @@ h2 {
 }
 
 .code-c-text > p {
-    font-style: normal;
-    font-weight: 400;
+    /* font-style: normal; */
+    /* font-weight: 400;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 30px; */
     color: #000000;
 }
 
@@ -469,6 +488,10 @@ h3 {
     text-decoration: none;
     color: #000000;
     padding: 25px 0;
+}
+
+.block--a > a:hover {
+    text-decoration: none;
 }
 
 .chief {
@@ -652,6 +675,10 @@ h4 {
     padding: 0 20px;
 }
 
+.btn--all:hover {
+    text-decoration: none;
+}
+
 .easy {
     width: 100%;
     background: #FF9C7D;
@@ -711,6 +738,11 @@ h4 {
     padding: 0 20px;
 }
 
+.easy-text > .btn--black:hover {
+text-decoration: none;
+}
+
+
 .footer {
     width: 100%;
     background: #EEEEEE;
@@ -756,7 +788,7 @@ h4 {
     color: #000000;
 }
 
-.case ul li > a {
+.case ul li > a:hover {
     text-decoration: none;
     color: #000000;
 }
